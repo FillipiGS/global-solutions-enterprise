@@ -76,6 +76,7 @@ namespace GSEnterprise.Controllers
             return View(recebedor);
         }
 
+        [HttpPost]
         public IActionResult Delete(Recebedor _recebedor)
         {
             var recebedor = _contexto.Recebedor.Find(_recebedor.Id);
@@ -91,6 +92,7 @@ namespace GSEnterprise.Controllers
             return View(recebedor);
         }
 
+        [HttpGet]
         public IActionResult Details(int Id)
         {
             var recebedor = _contexto.Recebedor.Find(Id);

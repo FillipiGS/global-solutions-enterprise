@@ -100,9 +100,9 @@ namespace GSEnterprise.Controllers
         public IActionResult Details(int Id)
         {
             var solicitacao = _contexto.Solicitacao.Find(Id);
-            CarregaTipoAlimento();
             return View(solicitacao);
         }
+
 
         public void CarregaTipoAlimento()
         {

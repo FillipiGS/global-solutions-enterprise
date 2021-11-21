@@ -39,7 +39,7 @@ namespace GSEnterprise.Controllers
                 _contexto.Doador.Add(doador);
                 _contexto.SaveChanges();
 
-                return RedirectToAction("Details");
+                return RedirectToAction("index");
             }
 
             return View(doador);
@@ -65,7 +65,7 @@ namespace GSEnterprise.Controllers
             {
                 _contexto.Doador.Update(doador);
                 _contexto.SaveChanges();
-                return RedirectToAction("Details");
+                return RedirectToAction("index");
             }
 
             return View(doador);
@@ -87,7 +87,7 @@ namespace GSEnterprise.Controllers
             {
                 _contexto.Doador.Remove(doador);
                 _contexto.SaveChanges();
-                return RedirectToAction("Details");
+                return RedirectToAction("index");
             }
 
             return View(doador);

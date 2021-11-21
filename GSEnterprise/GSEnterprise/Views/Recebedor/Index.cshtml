@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GSEnterprise.Models.Entidades.Doador>
+﻿@model IEnumerable<GSEnterprise.Models.Entidades.Recebedor>
 
 @{
     ViewData["Title"] = "Perfil";
@@ -10,10 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="../../../static/css/style.css">
     <link rel="icon" href="../../../static/img/favicon.ico" type="image/x-icon">
 
-    <title>Home</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -72,8 +70,14 @@
                 </div>
             </div>
 
-            <a class="nav-link" asp-area="" asp-controller="" asp-action="Edit">Editar Perfil</a>
-            <a class="nav-link" asp-area="" asp-controller="Solicitacao" asp-action="Index">Visualizar Solicitações</a>
+            <div>
+                <a class="" asp-area="" asp-controller="" asp-action="Edit">Editar Perfil</a>
+            </div>
+            <div>
+                <a class="btn btn-primary" asp-area="" asp-controller="Solicitacao" asp-action="Create">Criar Solicitações</a>
+            </div>
+            
+            
 
 
             <h4 class="font-weight-bold py-3 mb-4">
@@ -107,8 +111,8 @@
                 <div class="form-group">
                     <label class="form-label">Bio</label>
                     <textarea class="form-control" rows="5">Amigos do Bem é uma instituição sem fins lucrativos que desenvolve projetos educacionais, 
-                    de geração de trabalho e renda, água, saúde e moradia no sertão do Nordeste brasileiro, promovendo, desde 1993, desenvolvimento 
-                    local e inclusão social junto às populações em situação de extrema pobreza e miséria.</textarea>
+                        de geração de trabalho e renda, água, saúde e moradia no sertão do Nordeste brasileiro, promovendo, desde 1993, desenvolvimento 
+                        local e inclusão social junto às populações em situação de extrema pobreza e miséria.</textarea>
                 </div>
                 <div class="form-group">
                     <label class="form-label">Aniversário</label>
@@ -292,3 +296,4 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg>
 </body>
 </html>
+

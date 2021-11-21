@@ -36,7 +36,6 @@ C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Ra
 C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Default\Cadastro.g.cshtml.cs
-C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Doador\Details.g.cshtml.cs
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\bin\Debug\netcoreapp2.1\GSEnterprise.deps.json
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\bin\Debug\netcoreapp2.1\GSEnterprise.runtimeconfig.json
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\bin\Debug\netcoreapp2.1\GSEnterprise.runtimeconfig.dev.json
@@ -78,3 +77,13 @@ C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\obj
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\bin\Debug\netcoreapp2.1\GSEnterprise.dll.config
 C:\Users\filli\Desktop\global-solutions-enterprise\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\GSEnterprise.dll.config
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\bin\Debug\netcoreapp2.1\GSEnterprise.dll.config
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\GSEnterprise.dll.config
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Solicitacao\Index.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Doador\Details.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Recebedor\Create.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Solicitacao\Details.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Recebedor\Details.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Recebedor\Index.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Solicitacao\Create.g.cshtml.cs
+C:\Users\filli\source\repos\GSEnterprise\GSEnterprise\obj\Debug\netcoreapp2.1\Razor\Views\Solicitacao\Delete.g.cshtml.cs

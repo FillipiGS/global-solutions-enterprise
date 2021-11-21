@@ -1,4 +1,4 @@
-﻿@model GSEnterprise.Models.Entidades.Doador
+﻿@model GSEnterprise.Models.Entidades.Recebedor
 
 @{
     ViewData["Title"] = "Details";
@@ -7,7 +7,7 @@
 <h2>Details</h2>
 
 <div>
-    <h4>Doador</h4>
+    <h4>Recebedor</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -17,16 +17,16 @@
             @Html.DisplayFor(model => model.Id)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Nome)
+            @Html.DisplayNameFor(model => model.Instituicao)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Nome)
+            @Html.DisplayFor(model => model.Instituicao)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Documento)
+            @Html.DisplayNameFor(model => model.Cnpj)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Documento)
+            @Html.DisplayFor(model => model.Cnpj)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Email)
